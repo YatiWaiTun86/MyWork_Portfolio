@@ -86,7 +86,7 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-20 px-6 bg-white text-[#3B0100]">
+    <section id="experience" className="py-20 px-6 bg-white text-[#0c0c0c]">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-center">Experience</h2>
         <div className="space-y-8">
@@ -106,7 +106,7 @@ export default function Experience() {
                   {stack.map((tech) => (
                     <span
                       key={tech}
-                      className="text-sm px-3 py-1 bg-[#D7B15C] text-[#3B0100] font-medium rounded-full"
+                      className="text-sm px-3 py-1 bg-[#fafc99] text-[#0f0f0f] font-medium rounded-full"
                     >
                       {tech}
                     </span>

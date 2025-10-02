@@ -45,14 +45,14 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-white text-[#3B0100]">
-      <div className="max-w-6xl mx-auto">
+    <section id="projects" className="py-20 px-6 bg-white text-[#080808]">
+      <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-center">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map(({ image, title, description, link, stack }) => (
             <div
               key={title}
-              className="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden"
+              className="col-span-1 bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden"
             >
               {image && (
                 <img
@@ -69,7 +69,7 @@ export default function Projects() {
                     href={link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block text-[#D7B15C] font-medium hover:underline"
+                    className="inline-block bg-[#71f1a7f3] text-white px-3 py-1 rounded-full text-lg hover:bg-[#59e26b] hover:text-white transition mt-4"
                   >
                     View Project
                   </a>
@@ -79,7 +79,7 @@ export default function Projects() {
                     {stack.map((tech) => (
                       <span
                         key={tech}
-                        className="text-sm bg-[#D7B15C] text-[#3B0100] px-3 py-1 rounded-full font-medium"
+                        className="text-sm bg-[#fafc99] text-[#0f0f0f] px-3 py-1 rounded-full font-medium"
                       >
                         {tech}
                       </span>

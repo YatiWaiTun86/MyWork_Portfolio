@@ -12,7 +12,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-white text-[#3B0100]">
+    <section className="py-20 px-6 bg-white text-[#0c0c0c]">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-center">My Skills</h2>
         <div className="space-y-6">
@@ -24,7 +24,7 @@ export default function Skills() {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-4">
                 <div
-                  className="bg-[#0e312f] h-4 rounded-full"
+                  className="bg-[#71f1a7f3] h-4 rounded-full"
                   style={{ width: `${skill.level}%` }}
                 ></div>
               </div>

@@ -10,7 +10,7 @@ const config: Config = {
         accent: "#D7B15C", // Gold (optional, you might drop it)
         dark: "#333333", // Dark gray
         light: "#FFFFFF", // White
-        sugarAlmond: "#935529", // ✅ New color
+        sugarAlmond: "#935529", //
       },
     },
   },
