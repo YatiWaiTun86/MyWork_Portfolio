@@ -7,8 +7,9 @@ export default function Header() {
           <h3 className="text-5xl font-medium mb-4">Hello, I’m Yati Wai Tun</h3>
           <h1 className="text-5xl font-bold mb-4">Software Engineer</h1>
           <p className="text-lg max-w-xl mx-auto md:mx-0 text-accent">
-            A passionate full-stack developer building modern web experiences
-            using Next.js, Tailwind CSS, and more.
+            Welcome to the portfolio of Yati Wai Tun, a skilled Full-Stack
+            Software Engineer specializing in modern web technologies such as
+            Next.js, TypeScript, .NET, and Node.js.
           </p>
           <a
             href="#projects"
